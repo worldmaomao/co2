@@ -492,7 +492,7 @@ public class SQLMapperForm implements ClipboardOwner, ActionListener, DocumentLi
         }
 
         if (txtSecondOrderURL.getText().trim().length() > 0) {
-            buf.append(" --second-order=");
+            buf.append(" --second-url=");
             buf.append(txtSecondOrderURL.getText());
         }
 
